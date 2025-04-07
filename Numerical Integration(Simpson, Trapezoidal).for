@@ -18,7 +18,7 @@
 	ENDDO
 	Y(0) = F(A)
 	PRINT*,"Enter 1 For Trapezoidal Rule  2 for SIMPSON 1/3rd Rule 
-     m	 3 for SIMPSON 3/8th Rule "
+     	 3 for SIMPSON 3/8th Rule "
 	READ*,M
 	IF(M.EQ.1) THEN
 	GOTO 1
